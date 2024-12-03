@@ -7,3 +7,4 @@ imbalanced-learn
 joblib
 Flask
 beautifulsoup4
+gunicorn
