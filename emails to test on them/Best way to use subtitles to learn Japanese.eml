@@ -1,0 +1,218 @@
+Received: from AS8P195MB2121.EURP195.PROD.OUTLOOK.COM (2603:10a6:20b:56c::12)
+ by DB9P195MB1489.EURP195.PROD.OUTLOOK.COM with HTTPS; Tue, 19 Dec 2023
+ 19:11:36 +0000
+Received: from MW4PR03CA0034.namprd03.prod.outlook.com (2603:10b6:303:8e::9)
+ by AS8P195MB2121.EURP195.PROD.OUTLOOK.COM (2603:10a6:20b:56c::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.38; Tue, 19 Dec
+ 2023 19:11:35 +0000
+Received: from CO1NAM11FT059.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:303:8e:cafe::d1) by MW4PR03CA0034.outlook.office365.com
+ (2603:10b6:303:8e::9) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.38 via Frontend
+ Transport; Tue, 19 Dec 2023 19:11:34 +0000
+Authentication-Results: spf=pass (sender IP is 173.236.20.9)
+ smtp.mailfrom=s7.acems1.com; dkim=pass (signature was verified)
+ header.d=s7.acems1.com;dmarc=none action=none header.from=yutaaoki.com;
+Received-SPF: Pass (protection.outlook.com: domain of s7.acems1.com designates
+ 173.236.20.9 as permitted sender) receiver=protection.outlook.com;
+ client-ip=173.236.20.9; helo=s7.acems1.com; pr=C
+Received: from s7.acems1.com (173.236.20.9) by
+ CO1NAM11FT059.mail.protection.outlook.com (10.13.174.160) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7113.15 via Frontend Transport; Tue, 19 Dec 2023 19:11:34 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:10B3DB784FCA683C1E1018A6AC6A07273D9FEBF6270C6E31B139BBD05FF0C200;UpperCasedChecksum:FD5CBD9ECA4856D08F357509CBAB154D4C3AC88C0FFB71A5D5D35AC2EE1CD844;SizeAsReceived:1836;Count:22
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dk; d=s7.acems1.com;
+ h=To:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding:
+ Sender:List-Unsubscribe:List-Unsubscribe-Post:Message-ID;
+ i=yutaaoki.activehosted.com@s7.acems1.com;
+ bh=FE8slCTobm8WwObOcOaJU7E/vnyF6RjBDubZkvoWB7s=;
+ b=t4tevqajNMBZGSvnUS+B+uCgzD/qV5Pa0WKYcMU+4V13YmpnaqZiQOpz0c1SGVb0gwh4IoJ07MGu
+   u1YsWJB+3NveAKdWB85ePS595Fc2nK9Ur0ztl2pk54obx7DjOXxbA4CO/oJWuFa13i0wY+Poz8/w
+   8tQGCSsfUuuqvqwmsrc=
+Received: by s7.acems1.com id hg7lea365bk8 for <abu.12345@hotmail.com>; Tue, 19 Dec 2023 19:11:33 +0000 (envelope-from <bounce-200549-751-622316-abu.12345=hotmail.com@s7.acems1.com>)
+X-Mailer: ActiveCampaign Mailer
+CFBL-Address: fbl-report@acems1.com; report=arf
+To: "Remake 117" <abu.12345@hotmail.com>
+From: "Yuta" <yuta@yutaaoki.com>
+Subject: Best way to use subtitles to learn Japanese
+Date: Tue, 19 Dec 2023 13:11:33 -0600
+Content-Type: multipart/alternative;
+ boundary="_=_swift-13385536176581eae525fbf2.76143830_=_"
+Content-Transfer-Encoding: 7bit
+X-DKIM-Options: s=dk
+Sender: <yutaaoki.activehosted.com@s7.acems1.com>
+X-Sender: <yutaaoki.activehosted.com@s7.acems1.com>
+X-Report-Abuse: Please report abuse to abuse@activecampaign.com
+X-mid: YWJ1LjEyMzQ1QGhvdG1haWwuY29tICwgYzc1MSAsIG04MzggLCBzMTAzMzk4NDk
+x-virtual-mta: s7.acems1.com
+Feedback-ID: 200549:200549.751:s7.acems1.com:activecampaign
+X-250ok-CID: 200549-751
+List-Unsubscribe: <mailto:unsubscribe-b8d840ae2ffa9c9f2ef43a3d42a34782-751-dc2efdf9399feda2c8919e68a7308ecf@s7.acems1.com>,
+ <http://yutaaoki.activehosted.com/box.php?nl=3&c=751&m=838&s=dc2efdf9399feda2c8919e68a7308ecf&funcml=unsub2&luha=1>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Message-ID: <20231219191133.31128.205138952.swift@yutaaoki.activehosted.com>
+X-IncomingHeaderCount: 22
+Return-Path: bounce-200549-751-622316-abu.12345=hotmail.com@s7.acems1.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Dec 2023 19:11:34.8303
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ ace32429-49c3-4f42-6c0b-08dc00c6515c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ CO1NAM11FT059:EE_|AS8P195MB2121:EE_|DB9P195MB1489:EE_
+X-MS-Exchange-Organization-AuthSource:
+ CO1NAM11FT059.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 12/19/2023 6:06:39 PM
+X-MS-Office365-Filtering-Correlation-Id: ace32429-49c3-4f42-6c0b-08dc00c6515c
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 173.236.20.9
+X-SID-PRA: YUTAAOKI.ACTIVEHOSTED.COM@S7.ACEMS1.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Dec 2023 19:11:34.5491
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ace32429-49c3-4f42-6c0b-08dc00c6515c
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ CO1NAM11FT059.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS8P195MB2121
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9191614
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7113.016
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(2008001134)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?ZE1BWklmRmNMYURVaHAwVG0weWxSdHRwNFFsVHFBRHhDcVZXNkVuT0hSSTc1?=
+ =?utf-8?B?VXYzbEU3bWlkN0dPdFh6OTREY1h3TE1xNW0yLysvdVYzVmlLdXF1UDZJZW9v?=
+ =?utf-8?B?YTM5OGUyK2IxcjEybDdaRUJoNmFmeTNXVGtkakZHWlREem55WlJHdlp6bm5H?=
+ =?utf-8?B?VjJjZ1NHbCt1cjcvZkdKb1Jnako4UUhMeDB4cXdMZ2VwWGdxQjkwRUloU3dz?=
+ =?utf-8?B?eS96VTFoaHVhOHozT0UvOXdMSWlZaXFMMi9NTUp3dXRwRnJxSXdTVXZ3cUhF?=
+ =?utf-8?B?TEp5aWlpelpSQkpDQno5NjBOSjJESTAvZnhqT2JLVnY2clNoejl2emxRaGNE?=
+ =?utf-8?B?eDJ1bE9ONG9XMDhvcmFPYXNpeEM3bllrdXhjYktuZzdqKzJVYlRPNU1OdFZv?=
+ =?utf-8?B?MSsrbGtzd21EcUs5eTdEVzNJbGl4MzFGaGRiN1ZpSitEQUZRQlA0bDU4S1VC?=
+ =?utf-8?B?WkxYVjhPK29iV252cm1KYUVlQ3BMMklEb3Nub1FVWDlTVUdYRmh4V0xRNVVq?=
+ =?utf-8?B?REJWdGVuS0N1MkErYmJjU0tia0ZYVXNOUFBJY3J1TVZaZFovb2ZoT2hTTHYr?=
+ =?utf-8?B?U0lGdGx1bmNBbGRWTGRxS3U2NkswK0NnV043Z3orZnhtR0FQbENtWlJMZ3hG?=
+ =?utf-8?B?a3luUHoreTMvblNidmFpb2xhcnUydmVpNTdjb3ZkNU9JVXA2YWVwUTZ2Z2FN?=
+ =?utf-8?B?bWx6MzBDNC9CSEpUWXp6aVVQdC9qZlIzSDRBY3ZQOUpsaTIrK1JxdkQ5aEFn?=
+ =?utf-8?B?Q1U3QU4vY3dnc2RVOTQxUnJycEVJNGtnZVdpMzczdi9xaFhGVGZqUW9MZ3M5?=
+ =?utf-8?B?SFRyaFlxeGNpNmJVVk80Q01mOWg4MDRHTktjWHY0b0hVeDNPeHdDZmxsa243?=
+ =?utf-8?B?S2JJWVB3eUpSRjYxdktDWTRoTE5ibEcxQjB3QnZVU0x3ejV3NnhiUzFxc2Rp?=
+ =?utf-8?B?NzZLU0pabnhIQVQzWXplUDBFcE5pTmtjYWtOMSt6ZHoxcnMzWFUwZXR6aVls?=
+ =?utf-8?B?RTRZT2dEekNqczY5UHlxWXpCVFdSNEhkNlF1ZTFPWjRJenA1Zkw3OWRxaGN5?=
+ =?utf-8?B?OFZYU2JQZzBDWXp5cjRvb2h0NmpWakVWbXUraVNUNFp2eHliM2NVQzE3ZmVp?=
+ =?utf-8?B?c1NEN2FYVlZZcHlDRXVxYkFkdnJXeUJsbHdJbVB6RFo4TEZHNEV4d3ZmNERE?=
+ =?utf-8?B?WmJ2Y2xyTWc0dVBtN0srbUJhMHhpV0pUQWZPTFh6aFJnMkhGWkNQYlFVeTgz?=
+ =?utf-8?B?TGFhVnpUQlNVUy8xWUtPa0wyaWxHdmMweGVJYzZqUGhyMG92ZERrOGNTbi9a?=
+ =?utf-8?B?NlIvNit0S1RBZGtCMEVuODJ4akxnVFdBWWRhTnFDT3UxeDVtc0huRmN1RWQw?=
+ =?utf-8?B?akZjRk9lUXpSTExUODFHLzRPNjRqcUhSVVZ3Q1Z6NjR5N29jeE5lMEM1VjN3?=
+ =?utf-8?B?SThWUHQvTG5SRUlaOFJrbkpMbGlEL3ZPbnlRVFh0bm92bTA0cUJTd1BZK2NE?=
+ =?utf-8?B?aVBCREhuWFFVQTRUYlhpa04wWjdORFBYWWJOTGx1K05zUEhFSXRBUDJXU3FH?=
+ =?utf-8?B?Nlh0d1JxaUN6Y1VlWXNwbFhBOWliYkkreVpUTEppWGFkZ25DV0h6aWRqN1Vz?=
+ =?utf-8?B?bVlGMlJDa01WQVlxVFpKcjFEbFNKRG94N0s3S3JFZGFpZi9XRE1wSUpncDND?=
+ =?utf-8?B?SXpOWkpmcFRRVlNaOFZ5Mi9IUVZpN3ZpR0lzZXpZc2xHSldyYS9LVS9hZnVC?=
+ =?utf-8?B?by93Z2tzL1hyNDQzQWcvcklGM1gwWmtpY2xHTnlENmpIUzNRamFJSnB5TnVI?=
+ =?utf-8?B?Q3MvTkEvMXpWeGdLZzZYbDVOYms0aW5xWHROa1JKUHZMSndqRlFRSlVBbjh4?=
+ =?utf-8?B?Q0N6d2VPRWorYWc0VWpVWkFXWDNnWEdZeDh4aXgvQ1U0WXV1U214YjhWbDFv?=
+ =?utf-8?B?VzUyS1hWOVFUSFN5NEYzUzc4cTVFTWNaNjR0cjBkMjdWSnlqTk02OE1oRjZV?=
+ =?utf-8?B?ZzRBQlFIS050Wk9rb3QwY242WDAzbXEvQ3FLQXFyVE5KQWl1b2hrUEJ1Y203?=
+ =?utf-8?B?VmFIWGFFZVRqai8wQ0hqZUxXS2lLT1JOUWJaaUVXSkx6cDZna1RtTFFRS29Y?=
+ =?utf-8?B?NDdsclg4d3NpWmhvOXpXOXVrR1BXRzZKWXVJc01BQmEyVHRiQ1ppanR4RGJV?=
+ =?utf-8?B?YWc9PQ==?=
+MIME-Version: 1.0
+
+--_=_swift-13385536176581eae525fbf2.76143830_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head>
+<body>
+<p>Hi Remake 117,</p>=0A=
+
+<p>How are you doing?</p>=0A=
+
+<p>I know many of you guys watch anime with subtitles. And maybe you have a=
+sked yourself if you can improve your Japanese skills by watching anime wit=
+h subtitles.</p>=0A=
+
+<p>I have a very interesting story.</p>=0A=
+
+<p>There is a study from 2016 with Spanish people who are learning English.=
+ They divided the students into three groups and made them watch a film in =
+English under different conditions.</p>=0A=
+
+<p>1. With English subtitles (original language)<br>2. With Spanish subtitl=
+es (translation)<br>3. No subtitles (raw)</p>=0A=
+
+<p>Now, which group do you think improved their English skills the most?</p=
+>=0A=
+
+<p>It=E2=80=99s actually the first group who watched the film with English =
+subtitles. They improved their listening skills significantly better than t=
+he other groups.</p>=0A=
+
+<p>Isn=E2=80=99t it interesting?</p>=0A=
+
+<p>You can totally apply this to learning Japanese.</p>=0A=
+
+<p>For example, if you are watching anime with subtitles, try watching it w=
+ith Japanese subtitles. Some anime like Spirited Away or Teasing Master Tak=
+agi-san have Japanese subtitles on Netflix. So you can give it a try if the=
+se anime are available in your country.</p>=0A=
+
+<p>And that=E2=80=99s why in our vocabulary course, we will provide you wit=
+h Japanese subtitles to improve your listening skills.</p>=0A=
+
+<p>Check out <a href=3D"https://yutaaoki.lt.acemlna.com/Prod/link-tracker?r=
+edirectUrl=3DaHR0cHMlM0ElMkYlMkZkZmwwLnVzJTJGcyUyRmMyNmZmMDA5JTNGZW0lM0RhYn=
+UuMTIzNDUlNDBob3RtYWlsLmNvbQ=3D=3D&amp;sig=3DBYWMjqenbpBHgCyGiPEnXzvy62aZxL=
+mUDMsg57tdW7Ah&amp;iat=3D1703013093&amp;a=3D%7C%7C251667179%7C%7C&amp;accou=
+nt=3Dyutaaoki%2Eactivehosted%2Ecom&amp;email=3Dp3tXKsLDP2dpvE4P%2BQsDpPj%2B=
+zJrbfJVUl73ru57lann2JFMRug%3D%3D%3AB9f663apI56yydPpbQcG7howFJYo0GUf&amp;s=
+=3Ddc2efdf9399feda2c8919e68a7308ecf&amp;i=3D751A838A3A134493">the product p=
+age</a> for details.</p>=0A=
+
+<p>Cheers,<br>
+Yuta</p>=0A=
+
+<img src=3D"https://yutaaoki.lt.acemlna.com/Prod/link-tracker?nl=3D3&amp;c=
+=3D751&amp;m=3D838&amp;s=3Ddc2efdf9399feda2c8919e68a7308ecf&amp;l=3Dopen&am=
+p;account=3Dyutaaoki.activehosted.com&amp;a=3D251667179" border=3D"0" width=
+=3D"1" height=3D"1" style=3D"display:block;width:1px!important;min-width:1p=
+x!important;max-width:1px!important;height:1px!important;border:0;overflow:=
+hidden;"><br><div id=3D"ac-footer" style=3D"clear:both;background-color:inh=
+erit;background:inherit;min-width:100%;mso-table-lspace:0pt;mso-table-rspac=
+e:0pt;padding:20px;color:#000000;font-size:11px;font-family:arial,helvetica=
+,sans-serif;line-height:140%;line-height:1.4;text-align:center;box-sizing:b=
+order-box;"><center>Sent to: <span style=3D"font-size:11px;font-family:aria=
+l,helvetica,sans-serif;font-weight:normal;text-decoration:none;outline:none=
+;">abu.12345@hotmail.com</span><br><br><a href=3D"http://yutaaoki.activehos=
+ted.com/proc.php?nl=3D3&amp;c=3D751&amp;m=3D838&amp;s=3Ddc2efdf9399feda2c89=
+19e68a7308ecf&amp;act=3Dunsub" style=3D"font-size:11px;font-family:arial,he=
+lvetica,sans-serif;font-weight:bold;text-decoration:underline;"><span style=
+=3D"font-weight:bold;text-decoration:underline;">Unsubscribe</span></a><br>=
+<br>JVS, 1-9-7 Kitashinagawa, Top Room Shinawaga 2015, Shinagawa, Japan</ce=
+nter></div>=0A=
+<br clear=3D"all"></body>
+=0A=
+</html>=
+
+--_=_swift-13385536176581eae525fbf2.76143830_=_--

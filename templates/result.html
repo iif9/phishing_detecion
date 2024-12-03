@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>نتيجة الكشف عن الاحتيال</title>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar">
+        <!-- روابط التنقل -->
+        <ul>
+            <li><a href="/">الرئيسية</a></li>
+        </ul>
+
+        <!-- شعار الكلية -->
+        <img src="{{ url_for('static', filename='cti.png') }}" alt="شعار كلية التقنية" width="10%" height="20%" />
+    </nav>
+
+    <!-- محتوى الصفحة -->
+    <div class="container">
+        <h1>نتيجة الكشف عن الاحتيال</h1>
+        <p>تم تصنيف البريد الإلكتروني كـ: <strong>{{ prediction }}</strong></p>
+
+        <!-- معلومات الفريق -->
+    <div>
+        <div class="team-info" style="margin-top: 20px;">
+            <p><strong>من نحن:</strong> نحن مجموعة من طلاب كلية التقنية نقدم هذا المشروع كجزء من متطلبات التخرج.</p>
+            <p><strong>هدفنا:</strong> تطوير أدوات لكشف الاحتيال في البريد الإلكتروني والمساهمة في رفع مستوى الأمان الرقمي.</p>
+            <p>نسعى لتقديم أفضل الحلول للمستخدمين وتعزيز الوعي حول مخاطر الاحتيال الإلكتروني.</p>
+            <p>شكرًا لزيارتكم لموقعنا!</p>
+        </div>
+        <a href="/">العودة إلى الصفحة الرئيسية</a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#">سياسة الخصوصية</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+            <li><a href="#">مساعدة</a></li>
+        </ul>
+        <p>&copy; 2024 جميع الحقوق محفوظة - كلية التقنية</p>
+        <p>مشروع تخرج طلاب: ريان عبد الله الفعيم , عبد العزيز عبد الله النافع , فيصل علي الخيبري
+    </footer>
+
+</body>
+</html>

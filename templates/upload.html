@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع كلية الاتصالات و المعلومات - كشف الاحتيال</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styleU.css') }}">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">الرئيسية</a></li>
+        </ul>
+        <img src="{{ url_for('static', filename='cti.png') }}" alt="شعار كلية التقنية" width="10%" height="20%" />
+    </nav>
+
+    <!-- Project Description -->
+    <div class="project-description">
+        <h2>مشروع طلاب كلية الاتصالات و المعلومات لكشف عن الاميلات الاحتيال</h2>
+    </div>
+
+    <!-- Form Upload -->
+    <div class="container">
+        <div class="card">
+            <h3>Upload Files</h3>
+            <div class="drop_box">
+                <form action="/predict" method="post" enctype="multipart/form-data">
+                    <header>
+                        <h4>Upload Email File for Phishing Detection</h4>
+                    </header>
+                    <p>Files Supported: .eml</p>
+                    <input type="file" accept=".eml" id="fileID" name="file" required />
+                    <label for="fileID" class="btn">Choose File</label>
+                    <p id="file-name-display"></p>
+                    <button type="submit" class="btn">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#">سياسة الخصوصية</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+            <li><a href="#">مساعدة</a></li>
+        </ul>
+        <p>&copy; 2024 جميع الحقوق محفوظة - كلية الاتصالات والمعلومات</p>
+        <p>مشروع تخرج طلاب: ريان عبد الله الفعيم , عبد العزيز عبد الله النافع , فيصل علي الخيبري
+       
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const inputFile = document.getElementById('fileID');
+        const fileNameDisplay = document.getElementById('file-name-display');
+        const label = document.querySelector('label[for="fileID"]');
+
+        inputFile.addEventListener('change', function() {
+            if (inputFile.files.length > 0) {
+                const fileName = inputFile.files[0].name;
+                fileNameDisplay.textContent = `Selected file: ${fileName}`;
+            }
+        });
+
+        label.addEventListener('click', function() {
+            inputFile.click();
+        });
+    </script>
+
+</body>
+</html>
