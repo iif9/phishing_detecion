@@ -82,45 +82,94 @@
             margin-bottom: 10px;
         }
         /* Footer Styles */
-        footer {
-            background-color: #004080;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        footer ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        footer ul li {
-            display: inline;
-        }
-        footer ul li a {
-            text-decoration: none;
-            color: white;
-            font-size: 16px;
-        }
-        footer ul li a:hover {
-            text-decoration: underline;
-        }
-        footer p {
-            margin-top: 10px;
-            font-size: 14px;
-        }
-        footer .team-info {
-            margin-top: 20px;
-            font-size: 14px;
-            line-height: 1.6;
-            text-align: right; /* محاذاة النص لليمين */
-            max-width: 300px; /* تحديد عرض */
-            margin-left: auto; /* إضافة مسافة تلقائية على اليسار */
-            margin-right: 20px; /* إضافة مسافة على اليمين */
-            display: inline-block; /* جعل العنصر كـ inline-block */
-        }
+/* Footer Styles */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* List styles for links */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Inline list items for desktop */
+footer ul li {
+    display: inline;
+}
+
+/* Link styles */
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph styles for footer text */
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Team info section */
+footer .team-info {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: right;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/* Media Queries for responsive design */
+
+/* For small screens like mobile devices */
+@media (max-width: 600px) {
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    footer ul {
+        flex-direction: column;  /* Stack items vertically */
+        gap: 10px;
+    }
+
+    footer .team-info {
+        text-align: center; /* Center-align team info */
+        max-width: 100%; /* Allow team info to take full width */
+        margin: 10px 0; /* Add some spacing */
+    }
+}
+
+/* For larger screens like tablets and desktops */
+@media (min-width: 601px) {
+    footer {
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    footer ul {
+        flex-direction: row; /* Keep items in a row */
+    }
+
+    footer .team-info {
+        text-align: right; /* Keep text aligned to the right */
+    }
+}
